@@ -1,0 +1,33 @@
+.edris{
+	padding-top: 20px;
+	background-color: black; 
+	color:white;
+	
+
+}
+
+.red{
+	padding-top: 20px;
+	background-color: darkred;
+	color:black;
+	width:500px;
+}
+
+.grey{
+	padding-top: 20px;
+	background-color: grey;
+	color:black;
+	width:500px;
+}
+
+#blackGrey{
+	padding-top: 20px;
+	background-color: black;
+	color:grey;
+}
+
+#heading{
+	position: relative;
+	left:800px;
+	font-size: 50px;
+}
