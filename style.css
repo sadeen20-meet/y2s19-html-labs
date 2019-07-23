@@ -1,33 +1,85 @@
 .edris{
 	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 	background-color: black; 
 	color:white;
-	
+	position: relative;
+	left:50%;
+	transform: translateX(-50%)	
 
 }
 
+p{
+	font-size: 30px;
+}
+
+ul{
+	font-size: 40px;
+}
+
+
+
 .red{
 	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 50px;
 	background-color: darkred;
 	color:black;
-	width:500px;
+	width:850px;
+	animation-name: Red;
+	animation-duration: 5s ;
+	animation-iteration-count: infinite;
+	/*position:relative;*/
+	/*left:50%;*/
+	/*transform: translateX(-50%);*/
 }
 
 .grey{
 	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
 	background-color: grey;
 	color:black;
-	width:500px;
+	width:850px;
+	position: relative;
+	left:90%;
+	transform:translateX(-90%);
+	animation-name: Grey;
+	animation-duration: 5s ;
+	animation-iteration-count: infinite;
 }
 
 #blackGrey{
 	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: black;
 	color:grey;
 }
 
 #heading{
 	position: relative;
-	left:800px;
-	font-size: 50px;
+	left:700px;
+	font-size: 70px;
+	background-color: white;
+}
+
+.title:hover{
+	color: darkred;
+
+}
+
+
+@keyframes Grey{
+	from{background-color:grey;}
+	to{background-color: darkred;}
+}
+
+@keyframes Red{
+	from{background-color:darkred;}
+	to{background-color: grey;}
 }
