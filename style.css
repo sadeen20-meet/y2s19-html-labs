@@ -18,7 +18,10 @@ ul{
 	font-size: 40px;
 }
 
+#duvme{
+	float:right;
 
+}
 
 .red{
 	padding-top: 20px;
@@ -31,6 +34,7 @@ ul{
 	animation-name: Red;
 	animation-duration: 5s ;
 	animation-iteration-count: infinite;
+	float:right;
 	/*position:relative;*/
 	/*left:50%;*/
 	/*transform: translateX(-50%);*/
@@ -45,11 +49,21 @@ ul{
 	color:black;
 	width:850px;
 	position: relative;
-	left:90%;
+	left:60%;
 	transform:translateX(-90%);
 	animation-name: Grey;
 	animation-duration: 5s ;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite; 
+}
+
+#blackGrey{
+	padding-top: 20pmation-duration: 5s ;
+	animation-iteration-count: infinite; 
+}
+
+#blackGrey{
+	padding-top: 20pmation-duration: 5s ;
+	animation-iteration-count: infinite; 
 }
 
 #blackGrey{
@@ -59,18 +73,40 @@ ul{
 	padding-right: 20px;
 	background-color: black;
 	color:grey;
+
+}
+
+#black{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: black;
+	color:grey;
+	animation-name:black;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+}
+
 }
 
 #heading{
 	position: relative;
 	left:700px;
-	font-size: 70px;
+	font-size: 80px;
 	background-color: white;
 }
 
 .title:hover{
 	color: darkred;
 
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  right: 300px;
 }
 
 
@@ -83,3 +119,10 @@ ul{
 	from{background-color:darkred;}
 	to{background-color: grey;}
 }
+
+@keyframes black{
+	from{background-color:black;}
+	to{background-color: darkgrey;}
+}
+
+
